@@ -1,6 +1,8 @@
 #define MICROPY_HW_BOARD_NAME       "LICSBER-F411CEU6"
 #define MICROPY_HW_MCU_NAME         "STM32F411CE"
+#define MICROPY_HW_FLASH_FS_LABEL   "Licsber411"
 
+#define MICROPY_PY_THREAD           (1)
 #define MICROPY_HW_HAS_SWITCH       (1)
 #define MICROPY_HW_HAS_FLASH        (1)
 #define MICROPY_HW_ENABLE_RTC       (1)
@@ -106,4 +108,3 @@ extern struct _spi_bdev_t spi_bdev;
 
 // USB config
 #define MICROPY_HW_USB_FS              (1)
-#define MICROPY_HW_FLASH_FS_LABEL "Licsber411"
